@@ -1,0 +1,53 @@
+html, body {
+  background: #161616 url('http://www.thirdprestige.com/assets/layout/bg-e119516dcb103e3ca18d567983c1f3f2.png');
+}
+
+#container {
+  margin: 3em auto;
+  width: 760px;
+}
+
+h1 {
+  color: #FEFEFE;
+  font-family: 'Denk One', sans-serif;
+  padding: 1em;
+}
+
+#panel {
+  /*background: rgba(200, 200, 200, 0.3);*/
+  border-top: solid #eee 1px;
+  float: left; 
+  padding-top: 40px;
+  text-align: center;
+  width: 60%;
+}
+
+#panel img {
+  border-radius: 2px;
+  max-width: 100%;
+}
+
+#sidebar {
+  background: rgba(160, 160, 160, 0.2);
+  float: right;
+  min-height: 500px;
+  padding-top: 10px;
+  width: 30%;
+}
+
+#sidebar img {
+  background: rgba(160, 160, 160, 0.2);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 5px 6px;
+}
+
+#sidebar img:hover {
+  background: rgba(160, 160, 160, 0.4);
+}
+
+#sidebar img.active {
+  background: rgba(240, 160, 160, 0.3);
+  opacity: 0.8;
+}
